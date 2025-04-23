@@ -1,0 +1,211 @@
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 20px;
+    background-color: rgba(78, 31, 9, 0.5);    
+    font-size: 20px;
+}
+
+header a {
+    color: wheat;
+}
+
+.logo {
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+
+    gap: 40px;
+    padding: 10px;
+    color: wheat;
+}
+
+nav a {
+    color: wheat;
+}
+
+nav a:hover {
+    color: white;
+}
+
+
+/* MAIN */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+    background-color: antiquewhite;
+
+}
+
+.hero {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin: 40px;
+}
+
+div p {
+    text-align: justify;
+}
+
+.hero_1 {
+    width: 400px;
+}
+
+.more a {
+    background-color: rgb(233, 204, 148);
+    padding: 10px;
+    border: 1px solid saddlebrown;
+    border-radius: 10px;
+    color: black;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.more a:hover {
+    background-color: black;
+    color: wheat;
+    transform: scale(1);
+}
+
+/* After Hero */
+.content1 {
+    display: flex;
+    flex-direction: column;
+    background-color: #ef996a;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.how {
+    margin: auto;
+}
+
+.kolom {
+    font-size: 12px;
+    display: flex;
+    gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+
+.kolom div {
+    background-color: wheat;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    flex: 1;
+    min-width: 250px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.351);
+}
+
+.kolom p {
+    padding: 5px;
+}
+
+
+/* FOOTER */
+footer {
+    display: flex;
+    justify-content: center;
+    /* position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0; */
+    padding: 10px;
+
+    background-color: rgb(8, 4, 1);
+    color: wheat;
+}
+
+/* MEDIA */
+
+/* Tablet & HP landscape (768px) */
+@media (max-width: 768px) {
+    /* Hero section ke column */
+    .hero {
+      flex-direction: column;
+      margin: 20px 10px;
+    }
+    .hero img {
+      width: 100%;
+      max-width: 200px;
+      margin-bottom: 15px;
+    }
+    .hero_1 {
+      width: 100%;
+    }
+  
+    /* Navigasi lebih ringkas */
+    nav {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    /* Konten “Bagaimana Cara Kerjanya” */
+    .how h2 {
+      font-size: 1.6rem;
+      text-align: center;
+    }
+    .kolom {
+      gap: 15px;
+    }
+  }
+  
+  /* HP portrait kecil (480px) */
+  @media (max-width: 480px) {
+    /* Header jadi vertikal */
+    header {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 10px;
+    }
+    nav {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    /* Spasi main diperkecil */
+    .hero {
+      margin: 5px 5px;
+    }
+    .hero_1 p {
+      font-size: 0.9rem;
+    }
+  
+    /* Kolom jadi satu per baris */
+    .kolom {
+      flex-direction: column;
+      gap: 10px;
+    }
+    .kolom div {
+      min-width: auto;
+    }
+  
+    /* Footer font sedikit diperkecil */
+    footer {
+      font-size: 0.85rem;
+    }
+  }
+  

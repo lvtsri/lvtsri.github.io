@@ -1,0 +1,153 @@
+body {
+    background-image: url(img/rmk.jpg);
+    background-size: cover; /* Ganti ini */
+    background-attachment: fixed; /* Tambahkan ini */
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 20px;
+    background-color: rgba(0, 0, 0, 0.500);
+    font-size: 20px;
+}
+
+header a {
+    color: wheat;
+}
+
+.logo {
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+
+    gap: 40px;
+    padding: 10px;
+    color: wheat;
+}
+
+nav a {
+    color: wheat;
+}
+
+nav a:hover {
+    color: white;
+}
+
+.main {
+    padding: 5px;
+    margin: 0;
+    font-size: 1.2rem;  
+}
+
+.box {
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color:#6D5C55;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    justify-content: center;
+    /* position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0; */
+    padding: 10px;
+
+    background-color: rgb(8, 4, 1);
+    color: wheat;
+}
+
+
+.container {
+    max-width: 900px; 
+    margin: 0 auto;
+    padding: 10px;
+}
+
+details {
+    background-color: #EADBC8;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    color: #333;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+details[open] {
+    background-color: #F6EFE7;
+}
+
+summary {
+    font-weight: bold;
+    font-size: 1.2em;
+    cursor: pointer;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #6D5C55;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+summary:hover {
+    background-color: #D8C3B9;
+}
+
+details p {
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+details img {
+    border-radius: 8px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease;
+}
+
+details img:hover {
+    transform: scale(1.05);
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+
+@media (max-width: 768px) {
+    .image-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .cat-pic {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+}

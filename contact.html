@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style_contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div>
+            <nav class="navigasi">
+                <a href="index.html" class="logo">Cattopia</a>
+                <a href="index.html" class="nav">Home</a>
+                <a href="about.html" class="nav">About</a>
+                <a href="kegiatan.html" class="nav">Activity</a>
+                <a href="contact.html" class="nav">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+        <section class="form">
+            <div class="hero">
+                <h1>Kontak Kami</h1>
+                <p>Punya laporan, pertanyaan, saran, atau ingin tahu lebih banyak tentang kucing lucu? Kami selalu siap mendengarkan. Hubungi kami lewat form di bawah ini atau kirim pesan langsung!</p>
+            </div>
+
+            <section class="name">
+                <div>
+                    <label for="f_name">First Name *</label><br>
+                    <input type="text" class="f_name" name="f_name" required>
+                </div>
+                <div>
+                    <label for="l_name">Last Name</label><br>
+                    <input type="text" class="l_name" name="l_name">
+                </div>
+            </section>
+            
+            <section class="other">
+                <div>
+                    <label for="email">E-mail</label><br>
+                    <input type="email" class="email" name="email" required>
+                </div>
+    
+                <div>
+                    <label for="pesan">Message</label><br>
+                    <textarea name="pesan" id="pesan"></textarea><br>    
+                </div>
+        
+                <div>
+                    <label for="subject">Subject</label><br>
+                    <select value="subject">
+                        <option name="subject0"></option>
+                        <option name="subject1">Adopsi</option>
+                        <option name="subject2">Laporan kucing terlantar</option>
+                        <option name="subject3">Ingin menjadi relawan</option>
+                        <option name="subject4">Donasi</option>
+                        <option name="subject5">Kerja Sama / Kolaborasi</option>
+                        <option name="subject6">Kehilangan / Penemuan Kucing</option>
+                        <option name="subject7">Informasi Sterilisasi</option>
+                        <option name="subject8">Saran & Masukan untuk Website / Komunitas</option>
+                        <option name="subject9">Keluhan / Pengaduan</option>
+                        <option name="subject10">Pertanyaan Seputar Kucing</option>
+                        <option name="subject11">Lainnya</option>
+                    </select>
+                </div><br>
+                <div class="send">
+                    <a href="#" class="send">Send</a>
+                </div>
+            </section>
+        </section>
+        </div>
+    </main>
+
+    <footer>© 2025 Cattopia. All rights reserved.</footer>
+</body>
+</html>

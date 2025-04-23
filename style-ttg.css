@@ -1,0 +1,147 @@
+body {
+    background-image: url(img/rmk.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #4B3A36;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 20px;
+    background-color: rgba(0, 0, 0, 0.500);    
+    font-size: 20px;
+}
+
+header a {
+    color: wheat;
+}
+
+.logo {
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+
+    gap: 40px;
+    padding: 10px;
+    color: wheat;
+}
+
+nav a {
+    color: wheat;
+}
+
+nav a:hover {
+    color: white;
+}
+
+
+
+.main {
+    padding: 5px;
+    margin: 0;
+    font-size: 1.2rem;  
+}
+
+.box {
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color:#6D5C55;
+    color: white;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    background-color: #6D5C55; 
+    border-radius: 10px;
+    padding: 25px;
+    margin: 20px 0;
+    color: #FDF9F7; 
+}
+
+.image-container img {
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+    box-shadow: none;
+    border: 2px solid #8C7C75; 
+}
+
+.isi {
+    flex: 1;
+    font-size: 1.2rem;  
+    line-height: 1.8;   
+    color: #FDF9F7;
+}
+
+.container {
+    max-width: 900px; 
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.box-paragraf {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.paragraf {
+    background-color: #7A6860;
+    padding: 20px;
+    border-radius: 8px;
+    color: #FDF9F7;
+    box-shadow: none;
+    line-height: 1.8;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+.paragraf:hover {
+    background-color: #E4C5B3;  
+    color: #6D5C55;  
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    justify-content: center;
+    /* position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0; */
+    padding: 10px;
+
+    background-color: rgb(8, 4, 1);
+    color: wheat;
+}
+
+@media (max-width: 768px) {
+    .image-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .cat-pic {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+}
