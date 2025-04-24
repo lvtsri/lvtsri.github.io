@@ -1,7 +1,3 @@
-<p>Ini adalah projek matkul Praktikum Pemrograman Web<br>
-Dibuat oleh Adinda Lailatul Musyarofah dan Luhtitisari<br>
-Cara melihatnya adalah dengan mengetikkan nama repositori di new tab<br>
-Selamat mencoba!
-</p>
-
-<p>hai</p>
+<h3>IProjek matkul Praktikum Pemrograman Web</h3>
+<p>Dibuat oleh Adinda Lailatul Musyarofah dan Luhtitisari</p>
+<p>https://lvtsri.github.io/</p>
